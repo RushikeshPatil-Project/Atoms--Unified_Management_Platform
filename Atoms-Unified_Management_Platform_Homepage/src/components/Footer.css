@@ -1,0 +1,69 @@
+.footer {
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color for contrast */
+    padding: 10px 0; /* Reduced padding around the footer content */
+    border-top: 1px solid #ddd; /* Optional: Border at the top of the footer */
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10%; /* Reduced spacing */
+  }
+  
+  .footer-sitemap, .footer-legal {
+    flex: 1;
+  }
+  
+  .footer-sitemap h5, .footer-legal h5, .contactUs {
+    margin-bottom: 10px; /* Reduced space below headings */
+    font-size: 22px; /* Font size for section headings */
+  }
+  
+  .footer-sitemap li, .footer-legal a {
+    list-style: none; /* Remove default list styling */
+    margin: 5px 0; /* Reduced space between links */
+  }
+  
+  .footer-sitemap a, .footer-legal a {
+    text-decoration: none;
+    color: #fff; /* White link color */
+    font-size: 18px; /* Font size for links */
+  }
+  
+  .footer-sitemap a:hover, .footer-legal a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .col-md-4 {
+    flex: 1;
+    padding: 0 10px; /* Reduced space around contact information */
+  }
+  
+  .contactUs {
+    font-size: 22px; /* Font size for contact section heading */
+    margin-bottom: 10px; /* Reduced space below heading */
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    padding: 10px 0; /* Reduced padding */
+    border-top: 1px solid #333; /* Darker border between footer content and copyright */
+    margin-top: 15px; /* Reduced space above copyright section */
+  }
+  
+  .footer-copyright p {
+    margin: 5px 0; /* Reduced space between lines of text */
+  }
+  
+  .footer-copyright h5 {
+    margin: 0;
+    font-size: 16px; /* Font size for copyright text */
+    color: #ccc; /* Light gray text color for readability */
+  }
+  
+  /* Font Awesome icons styles */
+  .fas {
+    margin-right: 5px; /* Reduced space between icon and text */
+  }
+  

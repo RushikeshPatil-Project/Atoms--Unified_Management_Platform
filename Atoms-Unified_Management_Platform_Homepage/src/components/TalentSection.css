@@ -1,0 +1,62 @@
+/* Ensure the container of the card is positioned */
+.talent-section {
+  padding: 50px;
+  background-color: #110f1f;
+  position: relative; /* Allows absolute positioning within this container */
+}
+
+/* Position the card in the upper right corner */
+.card {
+  left:10px;
+  position: absolute; /* Absolute positioning */
+  top: 50px; /* Distance from the top */
+  right: 50px; /* Distance from the right */
+  width: 400px; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  background-color: #1f1c1e; /* Card background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Ensure it stays on top */
+  z-index: 10;
+}
+
+/* Image styling inside the card */
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Content styling within the card */
+.talent-content h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fff; /* Adjust color for readability */
+  margin-bottom: 20px;
+}
+
+.talent-content p {
+  font-size: 1.2em;
+  color: #ddd; /* Adjust color for readability */
+  margin-bottom: 40px;
+}
+
+/* Container for multiple images */
+.talent-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Center-align images if necessary */
+}
+
+/* Individual image styling */
+.talent-images img {
+  width: 300px; /* Adjust width if needed */
+  height: 350px; /* Height adjusted to fit card size */
+  object-fit: cover;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(197, 23, 23, 0.1);
+}

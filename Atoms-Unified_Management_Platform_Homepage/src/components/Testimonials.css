@@ -1,0 +1,56 @@
+/* src/components/Testimonials.css */
+.container {
+    text-align: center; /* Center-align the container content */
+}
+
+h2 {
+    font-size: 2.5rem; /* Increase font size for the heading */
+    margin-bottom: -20px; /* Add space below the heading */
+    color: #0a0a0a; /* Dark color for the heading text */
+    font-weight: bold; /* Make the heading bold */
+    margin-top: 50px;
+}
+
+.card {
+    border: none; /* Remove default card border */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    background-color: #f8f9fa; /* Light background for the card */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+    margin-bottom: 10px; /* Add space between cards */
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.card-body {
+    padding: 20px; /* Add padding inside the card body */
+}
+
+.card-text {
+    font-size: 1.125rem; /* Increase font size for the card text */
+    color: #090808; /* Dark color for text */
+    margin-bottom: 20px; /* Add space below the text */
+}
+
+.card-footer {
+    background-color: transparent; /* Make card footer background transparent */
+    border-top: 1px solid #ddd; /* Light border on top of the footer */
+    padding: 10px 20px; /* Add padding to the footer */
+}
+
+.card-footer .text-muted {
+    color: #6c757d; /* Muted color for the footer text */
+}
+
+/* Ensure proper spacing in rows */
+.row {
+    margin-left: -15px; /* Adjust row margin */
+    margin-right: -15px; /* Adjust row margin */
+}
+
+.col-md-4 {
+    padding-left: 15px; /* Add padding to column for spacing */
+    padding-right: 15px; /* Add padding to column for spacing */
+}

@@ -1,0 +1,46 @@
+/* src/components/ContactUs.css */
+#aboutus {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 40px 20px; /* Padding around the section */
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto; /* Center the container */
+    background-color: white; /* White background for the container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.contact-container h2 {
+    color: #007bff; /* Heading color */
+    font-size: 2rem; /* Adjust font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.contact-container h3 {
+    color: #333; /* Color for subheadings */
+    font-size: 1.25rem; /* Font size for subheadings */
+    margin: -10px -20px; /* Reduced space above and below subheadings */
+}
+
+.contact-container p {
+    font-size: 1rem; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for readability */
+    margin: 0; /* Remove default margins */
+    margin-top: -10px;
+}
+
+.contact-container div {
+    margin-bottom: 10px; /* Reduced space between sections */
+}
+
+.contact-container a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

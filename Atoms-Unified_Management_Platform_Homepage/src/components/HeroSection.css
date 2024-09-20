@@ -1,0 +1,17 @@
+.hero-section {
+    padding: 60px 20px;
+    text-align: left;
+    background-color: white;
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;  /* Adjusted font size */
+    font-weight: 700;  /* Set font weight to bold */
+    line-height: 1.3;  /* Adjusted line height for better readability */
+    margin: 0;
+    color: #000;
+    max-width: 50vw; /* Set max-width to 50% of the viewport width */
+    word-wrap: break-word; /* Ensures the text will wrap */
+    padding: 30px; /* Added padding around the text */
+  }
+  

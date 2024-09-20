@@ -1,0 +1,30 @@
+/* Box.css */
+
+.container1 {
+    background-color: #17151b; /* Green background for the container */
+    color: #fff; /* White text color */
+    padding: 50px; /* Padding inside the container */
+    display: flex; /* Use Flexbox for centering content */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text inside the container */
+    min-height: 500px; /* Minimum height of the container */
+  }
+  
+  .text1 {
+    max-width: 800px; /* Limit width for better readability */
+  }
+  
+  h1 {
+    font-size: 2.5em; /* Larger font size for headings */
+    margin: 0; /* Remove default margins */
+    line-height: 1.2; /* Adjust line height for better spacing */
+  }
+  
+  p {
+    font-size: 1.2em; /* Slightly larger font size for the paragraph */
+    margin-top: 60px; /* Space above the paragraph */
+    margin-bottom: 0; /* Remove default bottom margin */
+  }
+  

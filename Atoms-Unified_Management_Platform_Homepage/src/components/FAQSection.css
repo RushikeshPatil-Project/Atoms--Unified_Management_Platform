@@ -1,0 +1,42 @@
+/* src/components/FAQSection.css */
+.faq-section-container {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #dee2e6; /* Border around the entire section */
+    border-radius: 10px; /* Optional rounded corners */
+    background-color: #f8f9fa; /* Optional background color */
+}
+
+.faq-heading {
+    text-align: center;
+    margin: 0; /* Remove margins above and below */
+    padding: 0; /* Remove padding if necessary */
+    font-size: 30px;
+    color: #090808;
+}
+
+.faq-section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.faq-header {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.faq-header:hover {
+    background-color: #e9ecef;
+}
+
+.faq-card {
+    border: 1px solid #dee2e6;
+    width: 100%;
+}
+
+.faq-card .card-body {
+    padding: 15px;
+}

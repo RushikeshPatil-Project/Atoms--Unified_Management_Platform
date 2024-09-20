@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Distributes space between left and right content */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0d0d0e; /* Light background color */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px; /* Adjust size as needed */
+  margin-right: 10px;
+}
+
+.logo span {
+  font-family: 'Arial', sans-serif; /* Choose a more attractive font */
+  font-size: 36px; /* Adjust size as needed */
+  font-weight: bold; /* Makes the text bold */
+  color: #f5f3f3; /* Adjust color as needed */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #f7f3f3; /* Adjust color as needed */
+  font-size: 18px; /* Adjust size as needed */
+}
+
+
+
+
+
+
+
+
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.About, .start-free {
+  background-color: #58ca71; /* Button background color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+}
+
+.About:hover, .start-free:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
