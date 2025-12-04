@@ -1,4 +1,4 @@
-# Atom's Unified Management Platform - [Rushikesh0523](https://github.com/RushikeshPatil-Project/Atoms--Unified_Management_Platform.git)
+# Atom's Unified Management Platform - [RushikeshPatil-Project](https://github.com/RushikeshPatil-Project/Atoms--Unified_Management_Platform.git)
 
 **Atom's Unified Management Platform** is a versatile and integrated platform designed to meet the diverse needs of educational institutions and project-based teams. The platform combines two major functionalities:
 1. **Project Management System**: Enables project creation, collaboration, and issue tracking.
